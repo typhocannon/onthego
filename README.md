@@ -34,3 +34,16 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+## Developer Notes
+TODO:
+
+- Display Google Map on separate component
+- Map Component:
+    - Two Props(start destination, end destination)
+    - Take in props that centers where the user currently is and it's path to their destination
+- Yelp API:
+    - Be Able to search what food they want
+    - take account the distance
+- Combined Yelp API searches with Google Map Markers and destination
