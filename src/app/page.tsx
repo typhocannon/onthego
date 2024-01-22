@@ -40,7 +40,7 @@ export default function Home() {
         </div>
       </div>
       <div className="Map Area: bg-blue-400 w-3/4 h-screen">
-        <Wrapper apiKey="AIzaSyBewESlFe-4nAF0of-6mjY5SJzC5LwliQU">
+        <Wrapper apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}>
           <MyMapComponent center={center} zoom={zoom} />
         </Wrapper>
       </div>

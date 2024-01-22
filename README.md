@@ -37,13 +37,31 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 
 ## Developer Notes
-TODO:
+Completed Tasks:
+DONE: 
+    - Input Text
+    - Logo ISH
+    - Display Google Map on separate component
+    -> Frontend Layout
 
-- Display Google Map on separate component
-- Map Component:
-    - Two Props(start destination, end destination)
+TODO:
+1. Map Component:
+    - Current props: center, zoom
+    - Want Props: start destination, end destionation
+        1. Find path between start destination & end destination
+            - maybe turn start destination and end destination into longitude and latitude (Geocoder)
+            - Autocomplete addresses (Places API)
+
+        2. display the path
+        3. find the CENTER between the paths
+        4. display the center
+    - Center:
+        1.
+        - need to find center point between start destination and end destination to display
+        - turn 
     - Take in props that centers where the user currently is and it's path to their destination
-- Yelp API:
+2. Yelp API:
     - Be Able to search what food they want
     - take account the distance
-- Combined Yelp API searches with Google Map Markers and destination
+3. Combined Yelp API searches with Google Map Markers and destination
+4. Style Map
